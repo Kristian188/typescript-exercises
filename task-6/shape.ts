@@ -1,8 +1,8 @@
 export abstract class Shape {
     abstract area(): number;
 
-    printArea(): void {
-        console.log(`Area: ${this.area()}`);
+    printArea(): string {
+        return `Area: ${this.area().toFixed(2)}`;
     }
 
 }

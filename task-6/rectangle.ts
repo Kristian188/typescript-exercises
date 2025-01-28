@@ -22,7 +22,7 @@ export class Rectangle extends Shape {
     }
 
     public displayArea(): void {
-        console.log(`Rectangle ${super.printArea}`);
+        console.log(`Rectangle ${super.printArea()}`);
     }
 
 
