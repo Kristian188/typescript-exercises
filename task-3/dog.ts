@@ -14,7 +14,7 @@ export class Dog extends Animal {
 
     makeSound(): string{
         
-        return super.makeSound() + "Bark!";
+        return super.makeSound() + " - " + "Bark!";
     }
 
 
