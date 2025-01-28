@@ -21,8 +21,8 @@ export class Rectangle extends Shape {
         return this.width * this.height;
     }
 
-    public displayArea(): void {
-        console.log(`Rectangle ${super.printArea()}`);
+    public displayArea(): string {
+        return `Rectangle ${super.displayArea()}`;
     }
 
 

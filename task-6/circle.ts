@@ -16,8 +16,8 @@ export class Circle extends Shape {
         return Math.PI * this.radius * this.radius;
     }
     
-    public displayArea(): void {
-        console.log(`Circle ${super.printArea()}`);
+    public displayArea(): string {
+        return `Circle ${super.displayArea()}`;
     }
 
 

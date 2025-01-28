@@ -1,7 +1,7 @@
 export abstract class Shape {
     abstract area(): number;
 
-    printArea(): string {
+    public displayArea(): string {
         return `Area: ${this.area().toFixed(2)}`;
     }
 
