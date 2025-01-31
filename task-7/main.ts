@@ -1,6 +1,6 @@
 import { Storage } from "./Storage";
 
-const numArr = new Storage<number>;
+const numArr = new Storage<number>();
 
 numArr.addItem(2)
 numArr.addItem(3)
@@ -10,7 +10,7 @@ numArr.removeItem(2)
 console.log(numArr.getAllItems()) // [3]
 
 
-const strArr = new Storage<string>;
+const strArr = new Storage<string>();
 
 strArr.addItem("apple")
 strArr.removeItem("apple")
